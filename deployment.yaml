@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: container-spring
-          image: swr.ap-southeast-3.myhuaweicloud.com/demo-sre/java-docker-example
+          image: swr.ap-southeast-3.myhuaweicloud.com/demo-sre/java-docker-example:latest
           resources:
             limits:
               cpu: 250m
